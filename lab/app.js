@@ -86,7 +86,6 @@ function sumArray(testArray){ //eslint-disable-line
   var numberSum2 = sum(firstTwoSum1[0],testArray[2]);
 
   var sumArrayString = testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + numberSum2[0] + ' is their sum.';
-  console.log(sumArrayString);
 
   return [numberSum2[0],sumArrayString];
 }
@@ -113,7 +112,6 @@ function multiplyArray(testArray){ //eslint-disable-line
   var numberProduct3 = multiply(firstTwoMultiply1[0],testArray[2]);
 
   var productArrayString = 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + numberProduct3[0] + '.';
-  console.log(productArrayString);
 
   return [numberProduct3[0],productArrayString];
 }
