@@ -11,7 +11,7 @@ Test this function by hand in the console to get it working, and when you think 
 function sum(a,b){ //eslint-disable-line
   var numberSum = a + b;
   var sumString = 'The sum of ' + a + ' and ' + b + ' is ' + numberSum + '.';
-  return [numberSum,numberString];
+  return [numberSum,sumString];
 }
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
