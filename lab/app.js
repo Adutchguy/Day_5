@@ -111,7 +111,7 @@ function multiplyArray(testArray){ //eslint-disable-line
   var firstTwoMultiply1 = multiply(testArray[0],testArray[1]);
   var numberProduct3 = multiply(firstTwoMultiply1[0],testArray[2]);
 
-  var productArrayString = 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + numberProduct3[0] + '.';
+  var productArrayString = 'The numbers ' + testArray + ' have a product of ' + numberProduct3[0] + '.';
 
   return [numberProduct3[0],productArrayString];
 }
